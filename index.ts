@@ -1,4 +1,5 @@
 import { LogManager } from "./common";
+import { Customer } from "./models";
 
 class MainClass {
   static main(): void {

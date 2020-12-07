@@ -1,3 +1,4 @@
 import { LogManager } from "./log-manager";
+import { ICustomer } from "./icustomer";
 
-export { LogManager };
+export { LogManager, ICustomer };

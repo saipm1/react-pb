@@ -1,7 +1,9 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const common_1 = require("./common");
 class MainClass {
     static main() {
-        console.info("Welcome to the world of MERN!!!");
+        common_1.LogManager.info("Welcome to the world of MERN!!!");
     }
 }
 MainClass.main();

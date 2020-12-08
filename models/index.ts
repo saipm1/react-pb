@@ -1,3 +1,4 @@
+import { CertificateDetails } from "./certificate-details";
 import { Customer } from "./customer";
 
-export { Customer };
+export { Customer, CertificateDetails };

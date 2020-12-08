@@ -8,8 +8,8 @@ class Customer implements ICustomer {
     public address: string,
     public email: string,
     public phoneNumber: string,
-    public creditLimit: number,
     public customerType: string,
+    public creditLimit: number,
     public activeStatus: boolean,
     public remarks: string
   ) {}

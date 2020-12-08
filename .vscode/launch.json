@@ -15,7 +15,9 @@
             "env": {
                 "MONGO_SERVER":"localhost",
                 "MONGO_PORT":"27017",
-                "MONGO_DB":"customersdb"
+                "MONGO_DB":"mstrainingdb",
+                "LISTENER_PORT":"8080",
+                "ENABLE_HTTPS": "false"
             }
         }
     ]

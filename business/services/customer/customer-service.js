@@ -122,7 +122,7 @@ class CustomerService {
                     useUnifiedTopology: true,
                 });
                 const addedRecord = yield db_management_1.CustomersContext.create(customerRecord);
-                status = addedRecord !== null && addedRecord._id;
+                status = addedRecord !== null && addedRecord._id !== null;
             }
             catch (exception) {
                 common_1.LogManager.error(exception);

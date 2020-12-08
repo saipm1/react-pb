@@ -1,6 +1,6 @@
 const DEFAULT_MONGO_SERVER = "localhost";
 const DEFAULT_MONGO_PORT = "27017";
-const DEFAULT_MONGO_DB = "reacttrainingdb";
+const DEFAULT_MONGO_DB = "mstrainingdb";
 
 class Configuration {
   public static getConfiguration() {
